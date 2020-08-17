@@ -154,14 +154,19 @@ p.banner_text {
 }
 
 button.banner_button {
-    background: #FEFEFE;
+    background: none;
     border: 1px solid #FFF;
-    border-radius: 4px;
-    padding: 5px;
-    color: #2B4C99;
+    padding: 10px;
+    color: #FFF;
     font-size: 18px;
     outline: none;
-    font-weight: bold;
+    transition: background .5s, color .5s;
+}
+
+button.banner_button:hover {
+    background: #FFF;
+    color: #0079C7;
+    transition: background .5s, color .5s;
 }
 
 div.query {
