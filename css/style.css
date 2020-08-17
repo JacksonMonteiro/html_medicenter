@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 section#banner {
-    background: url('../img/img1.jpg') no-repeat center;
+    background: url('../assets/img/img1.jpg') no-repeat center;
     background-size: cover;
     height: 670px;
     display: flex;
@@ -175,4 +175,72 @@ div.query {
     font-size: 14px;
     padding: 14px 0;
     border-bottom: thin solid rgba(255,255,255,.4);
+}
+
+section#geral {
+    display: flex; 
+    justify-content: center;
+}
+
+section#geral section {
+    flex: 2;
+}
+
+section#geral aside {
+    flex: 1;
+}
+
+h4.widget_title {
+    margin: 30px 0 10px 0;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background: #36A9C1;
+}
+
+div.squares {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+div.square {
+    width: 150px;
+    height: 150px;
+    margin: 25px 0;
+    background: #23A3DE;
+}
+
+div.widget_content > p {
+    margin: 25px 0;
+}
+
+div.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 0 15px 0;
+}
+
+div.info img {
+    flex: 1;
+    margin-right: 15px;
+    display: block;
+    max-width: 30px;
+    width: 100%;
+}
+
+div.info p {
+    flex: 4;
+}
+
+div.info p a#phone {
+    color: #000;
+    font-weight: bold;
 }
