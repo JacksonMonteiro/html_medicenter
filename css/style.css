@@ -1,3 +1,6 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 /* CSS reset */
 * {
     margin: 0;
@@ -6,6 +9,7 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
 }
 
 /* Display-role reset for other browsers */
@@ -16,6 +20,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
     line-height: 1;
+    font-family: 'Raleway', Arial, Sans-serif;
 }
 
 ol, ul {
@@ -53,4 +58,35 @@ div.container {
 div.logo {
     display: flex;
     align-items: center;
+}
+
+div.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+    background: #FFF;
+    color: #727272;
+    font-size: 14.5px;
+    transition: color .4s, background .4s;
+}
+
+nav a:hover {
+    background: #39AAE1;
+    color: #FFF;
+    transition: color .4s, background .4s;
+}
+
+section#banner {
+    background: url('../img/img1.jpg') no-repeat center;
+    background-size: cover;
+    height: 670px;
 }
