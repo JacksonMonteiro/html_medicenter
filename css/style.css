@@ -206,14 +206,13 @@ div.widget_title_bar {
 
 div.squares {
     display: flex;
-    flex: 1;
     justify-content: space-between;
 }
 
 div.square {
-    width: 150px;
+    flex: 1;
     height: 150px;
-    margin-bottom: 25px;
+    margin: 0 15px 25px 0;
     background: #23A3DE;
 }
 
@@ -381,4 +380,83 @@ ul.footer_list li {
 ul.footer_list li a {
     color: #FFF;
     display: inline-block;
+} 
+
+@media only screen and (max-width: 960px) {
+    nav a {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    div.logo {
+        margin-left: 15px;
+    }
+
+    div.menu {
+        margin-right: 5px;
+    }
+
+    div.banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    div.banner_headline {
+        margin:30px 15px;
+    }
+
+    p.banner_text {
+        font-size: 14px;
+    }
+
+    button.banner_button {
+        font-size: 14px;
+    }
+
+    section#geral {
+        margin-top: 125px;
+    }
+
+    section#geral div.container {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    section#geral section {
+        margin-left: 15px;
+    }
+
+    section#geral article {
+        max-width: 100%;
+    }
+
+    section#geral aside {
+        margin: 0 0 0 15px;
+    }
+
+    div.square {
+        flex: 1;
+        margin: 0 15px 25px 0;
+    }
+
+    div.footer_menu {
+        flex-direction: column;
+    }
+
+    div.footer_area {
+        flex-direction: column;
+        margin: 0 15px;
+    }
+
+    div#info_box {
+        justify-content: flex-start;
+    }
+
+    div#info_box div#contact {
+        margin-left: 25px;
+    }
+
+    div.footer_copy {
+        padding: 0 15px;
+    }
 } 
