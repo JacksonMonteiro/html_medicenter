@@ -382,10 +382,16 @@ ul.footer_list li a {
     display: inline-block;
 } 
 
+.menu_mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0;
+}
+
 @media only screen and (max-width: 960px) {
     nav a {
-        font-size: 12px;
-        padding: 10px;
+        font-size: 14px;
     }
 
     div.logo {
@@ -403,6 +409,10 @@ ul.footer_list li a {
 
     div.banner_headline {
         margin:30px 15px;
+    }
+
+    div.banner_headline h1  {
+        font-size: 64px;
     }
 
     p.banner_text {
@@ -458,5 +468,25 @@ ul.footer_list li a {
 
     div.footer_copy {
         padding: 0 15px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    div.menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    div.line {
+        height: 3px;
+        background: #39AAE1;
     }
 } 
