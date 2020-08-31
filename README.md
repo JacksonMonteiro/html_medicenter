@@ -5,7 +5,7 @@
 
 <h2 align="center">Project status </h2>
 
-<p align="center"> :x: <strong> Under development </strong> :x: </p> 
+<p align="center"> :heavy_check_mark: <strong> Completed </strong> :heavy_check_mark: </p> 
 
 ---
 
